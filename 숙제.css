@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+
+.visually-hidden{display: none;}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color:rgb(165, 214, 241);
+  position:sticky;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.logo img{
+  width: 60px;
+}
+
+.gnb-list{
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  color: #FFF;
+}
+
+.background{
+  height: 500px;
+  background-image: url(./images/wwwwww.jpeg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+}
+.bgctext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: #fff;
+}
+.bg-tittle{
+  font-size: 38px;
+}
+
+.bg-conment{
+  text-align: center;
+  font-size: 25px;
+}
+button{
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sticky{
+  width: 110px;
+  position: fixed;
+  top: 134px;
+  right: 43px;
+
+}
+.sticky div{
+  border: 1px solid #000;
+  border-radius: 5px 5px;
+  box-shadow: 1px 1px 5px black;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background-color: #FFF;
+
+}
+
+.post-box{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post-card{
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  background-color:rgb(165, 214, 241);
+  color: #000;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.post-box:first-child{
+  position: relative;
+  top: -20px;
+}
+
+
+.teee{
+  margin-top: 20px;
+}
+
+.last-box{
+  height: 600px;
+  background-color: rgb(165, 214, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left{
+  width: 500px;
+  height: 500px;
+  background-image: url(./images/14141414.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: white;
+  background-size: 50% 50%;
+}
+
+
+
+.global-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: rgb(123, 196, 241);
+  
+}
+
+.global-footer h3{
+  color: #FFF;
+}
+
+.footer-list{
+ display: flex;
+}
+
+.footer-item{
+  margin-right: 20px;
+}
+
+.footer-item a{
+  color: #FFF;
+  text-decoration: none;
+}
